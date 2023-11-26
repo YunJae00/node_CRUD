@@ -9,7 +9,7 @@ var mysql = require('mysql2');
 var conn = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'rnjsdbswo00!',
+    password: '',
     database: 'crud'
 });
 conn.connect();
@@ -30,7 +30,7 @@ app.use(session({
         host: 'localhost',
         port: 3306,
         user: 'root',
-        password: 'rnjsdbswo00!',
+        password: '',
         database: 'crud'
     })
 }));
